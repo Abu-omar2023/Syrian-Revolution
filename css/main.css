@@ -116,7 +116,7 @@ font-family: 'Rubik', sans-serif;
     justify-content: end;
   }
   .navbar ul{
-    width: 90%;
+    width: 97%;
     direction: rtl;
     list-style: none;
     display: flex;
