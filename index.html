@@ -23,8 +23,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
 </head>
     <body>
+           <!-- start Criminals theform -->
+           <div class="Criminals">
+            <form action="">
+                <input type="text" placeholder="الاسم">
+                <input type="text" placeholder="اسم الاب">
+                <input type="text" placeholder="اسم الام">
+                <input type="text" placeholder="الكنيه">
+                <input type="text" placeholder="المحافظه">
+                <input type="file" placeholder="">
+                <input class="submit" type="submit" placeholder="إبلاغ">
+            </form>
+        </div>
+
+        <!-- end Criminals theform -->
         <div class="cover"><img src="img/logo.jpg" alt=""></div>
        <div class="headbar">
+        <!-- statrt socialemedia -->
         <div class="socialemedia">
             <div class="face" style="background-color: royalblue;"><i class="fa-brands fa-facebook-f"></i></div>
             <div class="whatsapp" style="background-color: green;"><i class="fa-brands fa-whatsapp"></i></div>
@@ -33,7 +48,32 @@
             <div class="shear" style="background-color: purple;"><i class="fa-solid fa-share-nodes"></i></div>
             <div class="instgram" style="background-color: red;"><i class="fa-brands fa-instagram"></i></div>
         </div>
-           
+           <!-- end socialemedia -->
+           <!-- start saidbar -->
+        <div class="saidbar">
+            <i class="fa-solid fa-angles-up"></i>
+            <form action="">
+                <input type="search">
+                <label for=""><i class="fa-solid fa-magnifying-glass"></i></label>
+                <h2>المحافظات</h2>
+                <ul>
+                    <li>دمشق </li>
+                    <li>ريف دمشق </li>
+                    <li>حلب</li>
+                    <li>حمص</li>
+                    <li>ادلب</li>
+                    <li>الازقيه</li>
+                    <li>طرطوس</li>
+                    <li>درعا</li>
+                    <li>السويداء</li>
+                    <li>القنيطره</li>
+                    <li>دير الزور</li>
+                    <li>الحسكه</li>
+                    <li>الرقه</li>
+                </ul>
+            </form>
+        </div>
+            <!-- end saidbar -->
             <div class="left">
                 <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-youtube"></i>
             </div> 
@@ -41,12 +81,13 @@
                 <div class="rightlink">
                     <ul>
                         <li>english</li>
-                        <li>للإبلاغ عن مجرمين حرب</li>
+                        <li class="formcr">للإبلاغ عن مجرمين حرب</li>
                         <li>التسريبات</li>
                     </ul>
                 </div>
+             
                 <div class="righthb">
-                    sunday , february 26 , 2024 <i class="fa-regular fa-clock"></i>
+                    monday , february 26 , 2024 <i class="fa-regular fa-clock"></i>
                 </div>
             </div>
         </div>
@@ -83,7 +124,17 @@
             </div>
         </div>
 
+<script>
+                //start theam colors
+let btnColor = document.querySelector('.saidbar i');
 
+
+btnColor.onclick = function() {
+    let theamDiv = document.querySelector(".saidbar");
+    // this.classList.toggle("fa-spin");
+    theamDiv.classList.toggle("translat");
+}
+</script>
         <script src="js/jquery-3.7.1.min.js"></script>
         <script type="text/javascript" src="js/master.js"></script>
     </body>
