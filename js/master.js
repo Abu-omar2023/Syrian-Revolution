@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $(function (){
-        $(".cover").delay(700).fadeOut(1500)
+        $(".cover").delay(700).fadeOut(2000)
     })
         
   
