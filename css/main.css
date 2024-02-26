@@ -63,13 +63,14 @@ font-family: 'Rubik', sans-serif;
     margin-right: 50px;
     position: relative;
 }
-.right::before {
+/* .right::before {
     content: "";
     position: absolute;
     width: 1px;
     background-color: black;
     height: 40px;
-} 
+    left: 180px;
+}  */
 
 .righthb {
     text-align: center;
@@ -211,6 +212,7 @@ padding: 21px 7px 20px;
    }
    .begphoto div{
     width: 50%;
+    height: 370px;
     overflow: hidden;
    }
 

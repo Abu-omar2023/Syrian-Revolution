@@ -5,9 +5,35 @@ $(document).ready(function(){
     })
         
   
-
+$(".begphoto .first").hover(function (){
+    $(".begphoto  .first img").animate({
+        width: "110%"
+    
+    },500)
+},function (){
+    $(".begphoto  .first img").animate({
+        width: "100%"
+    
+    },500)
+})
+$(".begphoto .last").hover(function (){
+    $(".begphoto  .last img").animate({
+        width: "110%"
+    
+    },500)
+},function (){
+    $(".begphoto  .last img").animate({
+        width: "100%"
+    
+    },500)
+})
  
-
+// $(".begphoto .first").lave(function (){
+//     $(".begphoto  .first img").animate({
+//         width: "100%"
+    
+//     },500)
+// })
 
     $('.navbar ul li a').click(function(){
         
