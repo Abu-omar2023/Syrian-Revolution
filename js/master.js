@@ -16,7 +16,7 @@ $(document).ready(function(){
   
 $(".begphoto .first").hover(function (){
     $(".begphoto  .first img").animate({
-        width: "105%"
+        width: "102%"
     
     },500)
 },function (){
@@ -27,7 +27,7 @@ $(".begphoto .first").hover(function (){
 })
 $(".begphoto .last").hover(function (){
     $(".begphoto  .last img").animate({
-        width: "105%"
+        width: "102%"
     
     },500)
 },function (){
