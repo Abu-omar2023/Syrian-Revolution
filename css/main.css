@@ -44,6 +44,40 @@ border: none;
 font-size: 20px;
 padding: 0 20px;
 }
+
+.Criminals form textarea{
+  width: 100%;
+  margin: 5px;
+  height: 100px;
+  background-color: #eee;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  padding: 0 20px;
+  }
+
+  .Criminals span{
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: #fff;
+color: black;
+font-weight: bold;
+text-align: center;
+border-radius: 50%;
+font-size: 25px;
+cursor: pointer;
+top: 30px;
+right: 30px;
+    }
+
+    
+.Criminals form input.submit{
+ cursor: pointer;
+  }
+
+
+
 .Criminals form input.submit:hover {
   color: #fff;
   background-color: red;

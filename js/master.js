@@ -58,6 +58,11 @@ $(".submit").click(function () {
     $(".cover").css({
         display:"none"
     })
+});
+
+$(".Criminals span").click(function () {
+    $(".Criminals").fadeOut(500);
+   
 })
 
 
