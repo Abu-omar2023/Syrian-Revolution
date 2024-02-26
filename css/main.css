@@ -22,6 +22,7 @@ font-family: 'Rubik', sans-serif;
     background-color: #ffffffe0;
 }
 .cover img {
+    width: 40%;
    position: absolute;
    top: 50%;
    left: 50%;
