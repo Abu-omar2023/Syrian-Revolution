@@ -35,7 +35,26 @@ $(".begphoto .last").hover(function (){
         width: "100%"
     
     },500)
-});
+}); 
+
+// start smalphoto  
+
+// $(".smalephoto .one").hover(function (){
+//     $(".smalephoto .one img").animate({
+//         "width": "110%",
+//         "height": "110%"
+//     },800)
+// },function (){
+//     $(".smalephoto .one img").animate({
+//         "width": "100%",
+//         "height": "100%"
+    
+//     },800)
+// }); 
+
+
+
+// end smalphoto
 
 $(".saidbar ul li").hover(function (){
     $(this).animate({

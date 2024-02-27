@@ -74,6 +74,7 @@ right: 30px;
     
 .Criminals form input.submit{
  cursor: pointer;
+ transition: .5s;
   }
 
 
@@ -81,6 +82,7 @@ right: 30px;
 .Criminals form input.submit:hover {
   color: #fff;
   background-color: red;
+
   }
 
 
@@ -349,6 +351,8 @@ padding: 21px 7px 20px;
     padding: 5px;
     border: none;
    }
+
+   /* start begphoto */
    .begphoto {
     width: 80%;
     margin: auto;
@@ -362,7 +366,8 @@ padding: 21px 7px 20px;
     justify-content: center;
    }
    .begphoto div{
-    width: 50%;
+    width: 49.5%;
+    margin: 5px;
     height: 370px;
     overflow: hidden;
     position: relative;
@@ -392,29 +397,40 @@ padding: 21px 7px 20px;
     background-color: rgba(0, 0, 0, 0.686);
    }
 
+/* end begphoto */
 
-
+/* start smalephoto */
    .smalephoto {
     width: 80%;
     max-height: 400px;
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
    }
 
    .smalephoto div{
-    width: calc(100% / 3);
-    max-height: 400px;
+    width: calc(98% / 3);
+    max-height: 230px;
+    margin: 5px;
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 500px;
     position: relative;
+    overflow: hidden;
+    transition: .5s;
    }
+
+   .smalephoto div:hover img{
+
+    width: 102%;
+    height: 102%;
+  transition: .5s;
+   }
+
    .smalephoto div img{
     width: 100% ;
-  
+    transition: .5s;
    }
 
    .smalephoto div h4{
@@ -436,5 +452,45 @@ padding: 21px 7px 20px;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.686);
    }
+/* end smalephoto */
+/* start about */
+.about {
+  width: 80%;
+  margin: auto;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+}
 
+.about div{
+width: calc(95% / 2);
+margin: 10px;
+border-radius: 10px;
+overflow: hidden;
+}
+.about div video{
+  width: 100%;
+
+  }
+
+  .about .about-lf {
+    text-align: end;
+    margin-top: 50px;
+    }
+
+    .about .about-lf h3{
+      
+   margin: 20px;
+   font-size: 25px;
+   
+
+      }
+      .about .about-lf p{
+        width: 90%;
+        margin: 20px;
+        font-size: 25px;
+        text-align: end;
+     
+           }
+/* end about */
 
