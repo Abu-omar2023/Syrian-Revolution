@@ -324,7 +324,7 @@ text-align: end;
     justify-content: end;
   }
   .navbar ul{
-    width: 97%;
+    width: 100%;
     direction: rtl;
     list-style: none;
     display: flex;
