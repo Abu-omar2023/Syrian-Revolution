@@ -1,5 +1,19 @@
 $(document).ready(function(){
 
+    $(window).scroll(function(){
+        if($(window).scrollTop() >= $('.begphoto').offset().top){
+            $('.scrool').fadeIn()
+        }
+        else{
+            $('.scrool').fadeOut()
+        }
+       });
+       $('.scrool').click(function(){
+        $('html, body').animate({
+            scrollTop : 0
+        },700)
+       });
+
     $(function (){
         $(".cover").delay(700).fadeOut(2000)
     });
