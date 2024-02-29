@@ -134,7 +134,7 @@ right: 30px;
     z-index: 500;
 }
 
-.socialemedia i{
+.socialemedia div  {
    width: 50px;
    height: 50px;
    color: #fff;
@@ -142,13 +142,27 @@ right: 30px;
    font-size: 30px;
    line-height: 1.7;
    cursor: pointer;
-   
+   position: relative;
 }
+
 .socialemedia a{
-position: absolute;
+position:relative;
 width: 100%;
+height: 100%;
 z-index: 501;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
 }
+.socialemedia a i{
+text-align: center;
+color: #fff;
+/* position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); */
+  }
 /* start saidbar */
 .saidbar {
   position: fixed;
@@ -571,7 +585,7 @@ padding-top: 30px;
 }
 .archif .container {
   width: 80%;
-  min-height: 400px;
+  min-height: 250px;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -623,7 +637,7 @@ overflow: hidden;
 
 .pranks {
   width: 80%;
-  min-height: 400px;
+  min-height: 250px;
   margin: auto;
   border-top: 2px solid black;
   position: relative;
@@ -637,7 +651,7 @@ padding-top: 30px;
 }
 .pranks  .container {
   width: 80%;
-  min-height: 400px;
+  min-height: 250px;
   margin: auto;
   display: flex;
   justify-content: space-around;
