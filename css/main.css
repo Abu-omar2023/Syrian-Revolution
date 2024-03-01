@@ -611,8 +611,18 @@ border-radius: 10px;
 .archif .about-lf {
 
     text-align: center;
-    
+    position: relative;
     }
+    .archif .container .about-lf::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 85%;
+      bottom: 20px;
+      right: 30px;
+      background-color: red;
+      z-index: -1;
+      }
 
 .archif .about-lf h3{
       
@@ -622,11 +632,19 @@ border-radius: 10px;
 
       }
 .archif .about-lf p{
-        width: 90%;
-        margin: 20px;
-        font-size: 20px;
-        line-height: 1.3;
-     
+        width: 100%;
+        height: 81%;
+        /* padding: 60px 20px; */
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        font-size: 18px;
+        padding: 2.5px 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    /* line-height: 1.3; */
+        background-color: #ccc; 
            }
 
 .archif .container .about-rt {
