@@ -419,6 +419,7 @@ padding: 21px 7px 20px;
     overflow: hidden;
     position: relative;
    }
+   
 
    .begphoto div img{
     width: 100%;
@@ -596,12 +597,16 @@ padding-top: 30px;
 width: calc(98% / 2);
 margin: 10px;
 border-radius: 10px;
-overflow: hidden;
+
+/* overflow: hidden; */
+
 }
 .archif div img{
   width: 100%;
-
+  
   }
+
+
 
 .archif .about-lf {
 
@@ -626,9 +631,19 @@ overflow: hidden;
 
 .archif .container .about-rt {
   margin-top: 20px;
+  position: relative;
 }
 
-
+  .archif .container .about-rt::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  bottom: 30px;
+  left: 30px;
+  background-color: red;
+  z-index: -1;
+  }
 
 /* end archif */
 
