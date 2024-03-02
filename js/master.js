@@ -38,7 +38,7 @@ $(".begphoto .first").hover(function (){
         width: "100%"
     
     },500)
-})
+});
 $(".begphoto .last").hover(function (){
     $(".begphoto  .last img").animate({
         width: "102%"
@@ -53,18 +53,6 @@ $(".begphoto .last").hover(function (){
 
 // start smalphoto  
 
-// $(".smalephoto .one").hover(function (){
-//     $(".smalephoto .one img").animate({
-//         "width": "110%",
-//         "height": "110%"
-//     },800)
-// },function (){
-//     $(".smalephoto .one img").animate({
-//         "width": "100%",
-//         "height": "100%"
-    
-//     },800)
-// }); 
 
 
 

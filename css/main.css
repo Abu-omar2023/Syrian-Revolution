@@ -507,15 +507,15 @@ padding: 21px 7px 20px;
     justify-content: center;
     position: relative;
     overflow: hidden;
-    transition: .5s;
+    /* transition: .5s; */
    }
 
-   .smalephoto div:hover img{
+   /* .smalephoto div:hover img{
 
     width: 102%;
     height: 102%;
   transition: .5s;
-   }
+   } */
 
    .smalephoto div img{
     width: 100% ;
@@ -619,6 +619,7 @@ height: 95%;
   position: relative;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .symbols h1{
   width: 100%;
