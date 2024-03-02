@@ -814,6 +814,29 @@ overflow: hidden;
 
 /* end pranks */
 
+/* start battles */
+.battles {
+  width: 80%;
+  min-height: 250px;
+  margin: auto;
+  border-top: 2px solid black;
+  position: relative;
+}
+
+.battles h1{
+  width: 100%;
+margin: 20px auto;
+position: absolute;
+text-align: center;
+padding-top: 30px;
+}
+
+
+
+/* end battles */
+
+
+
 /* start data-bage */
 
 .data-menu {
