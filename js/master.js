@@ -84,11 +84,41 @@ $(".submit").click(function () {
 $(".Criminals span").click(function () {
     $(".Criminals").fadeOut(500);
    
-})
+});
 
 
 
 // end Criminals
+
+// start Criminals2
+$(".formcr2").click(function () {
+    $(".Criminals2").fadeIn(500)
+});
+$(".submit").click(function () {
+    $(".Criminals2").delay(500).fadeOut(500);
+    $(".cover").css({
+        display:"none"
+    })
+});
+
+$(".menu-b").click(function () {
+    $(".formcr2").fadeIn(500);
+  
+});
+
+menu-b
+
+$(".Criminals2 span").click(function () {
+    $(".Criminals2").fadeOut(500);
+   
+});
+
+
+
+
+// end Criminals2
+
+
     $('.navbar ul li a').click(function(){
         
         $(this).addClass('links').parent().siblings().find('a').removeClass('links');

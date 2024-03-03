@@ -36,7 +36,7 @@ font-family: 'Rubik', sans-serif;
 }
 /* scrool end */
 /* start Criminals */
-.Criminals {
+.Criminals, .Criminals2 {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -45,7 +45,7 @@ font-family: 'Rubik', sans-serif;
   display: none;
 }
 
-.Criminals form {
+.Criminals form, .Criminals2 form {
   position: absolute;
 width: 70%;
 height: 600px;
@@ -58,7 +58,7 @@ justify-content: space-evenly;
 flex-wrap: wrap;
 
 }
-.Criminals form input{
+.Criminals form input, .Criminals2 form input{
 width: calc(95% - 40px) / 2;
 /* margin: 5px; */
 height: 50px;
@@ -69,7 +69,7 @@ font-size: 20px;
 padding: 0 20px;
 }
 
-.Criminals form textarea{
+.Criminals form textarea, .Criminals2 form textarea{
   width: 100%;
   margin: 5px;
   height: 100px;
@@ -80,7 +80,7 @@ padding: 0 20px;
   padding: 0 20px;
   }
 
-  .Criminals span{
+  .Criminals span, .Criminals2 span{
 position: absolute;
 width: 30px;
 height: 30px;
@@ -96,7 +96,7 @@ right: 30px;
     }
 
     
-.Criminals form input.submit{
+.Criminals form input.submit, .Criminals2 form input.submit{
  cursor: pointer;
  transition: .5s;
   }
@@ -108,6 +108,12 @@ right: 30px;
   background-color: red;
 
   }
+
+  .Criminals2 form input.submit:hover {
+    color: #fff;
+    background-color: red;
+  
+    }
 
 
 /* end Criminals */
@@ -271,7 +277,12 @@ text-align: end;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
+    position: relative;
 }
+.formcr2 {
+  display: none;
+}
+
 .right {
     display: flex;
     justify-content: center;
@@ -723,12 +734,13 @@ border-radius: 10px;
         bottom: 2px;
         left: 0;
         font-size: 16px;
+        border: 1px solid black;
         /* padding: 2.5px ; */
         display: flex;
         justify-content: center;
         align-items: center;
     line-height: 1.5;
-        background-color: #ccc; 
+        background-color: #fff; 
            }
 
 .archif .container .about-rt {
@@ -816,21 +828,45 @@ overflow: hidden;
 
 /* start battles */
 .battles {
+  padding-top: 100px;
   width: 80%;
-  min-height: 250px;
+  min-height: 400px;
   margin: auto;
   border-top: 2px solid black;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
 .battles h1{
   width: 100%;
 margin: 20px auto;
 position: absolute;
 text-align: center;
+top: -20px;
 padding-top: 30px;
 }
+.battles .container {
+  width: calc(90% / 2) ;
+  min-height: 400px;
+  margin: auto;
+  padding-top: 60px;
+  display: block;
+  
+}
+.battles .container .img img{
+  width: 100%;
+ 
+  margin: auto;
 
+  
+}
+.battles .container .content p{
+  width: 100%;
+ text-align: center;
+  margin:20px auto;
+  
+}
 
 
 /* end battles */
