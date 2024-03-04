@@ -101,12 +101,7 @@ $(".submit").click(function () {
     })
 });
 
-$(".menu-b").click(function () {
-    $(".formcr2").fadeIn(500);
-  
-});
 
-menu-b
 
 $(".Criminals2 span").click(function () {
     $(".Criminals2").fadeOut(500);
